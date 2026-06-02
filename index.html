@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>CRUNCH HOUSE | Fast Food Paradise (DEMO)</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--<div class="demo-banner">
+      DEMO VERSION | This is a demo website — No real orders will be placed. For testing purposes only. 
+</div>-->
+
+<nav class="navbar">
+  <div class="logo"><i class="fas fa-burger"></i> CRUNCH HOUSE</div>
+  <div class="menu-btn" id="menuBtn">
+    <i class="fas fa-utensils"></i>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#menu">MENU</a></li>
+    <li><a href="#gallery">GALLERY</a></li>
+    <li><a href="#reviews">REVIEWS</a></li>
+    <li><a href="#order">ORDER NOW</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-badge animated"> CRAZE FOR CRUNCH </div>
+    <h1 class="animated delay-1">CRUNCHY,<br><span>JUICY & FAST</span></h1>
+    <p class="animated delay-2">Smashed burgers, crispy chicken, loaded fries — made fresh when you order. No freezers, just flavor.</p>
+    <div class="btn-group animated delay-3">
+      <a href="#order" class="btn-primary"> ORDER NOW</a>
+      <a href="#menu" class="btn-outline"> EXPLORE MENU</a>
+    </div>
+    </div>
+    <div class="image">
+      <img src="header-image.png">
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="section">
+  <div class="section-title"><span> WHY US </span></div>
+  <div class="features">
+    <div class="feature"><i class="fas fa-stopwatch"></i><h3>15 MIN</h3><p>Fast prep & delivery</p></div>
+    <div class="feature"><i class="fas fa-leaf"></i><h3>FRESH INGREDIENTS</h3><p>Daily local supply</p></div>
+    <div class="feature"><i class="fas fa-blender"></i><h3>SECRET SAUCE</h3><p>Signature recipes</p></div>
+    <div class="feature"><i class="fas fa-motorcycle"></i><h3>FREE DELIVERY</h3><p>Orders over $20</p></div>
+  </div>
+</section>
+
+<!-- Menu -->
+<section id="menu" class="section">
+  <div class="section-title"><span> HOT MENU </span></div>
+  <div class="menu-grid">
+    <div class="menu-card">
+      <div class="menu-img"><img src="double.jpg" alt="double smash"></div>
+      <div class="menu-info"><h3>DOUBLE SMASH</h3><p>2x beef, double cheese, caramelized onions, blaze sauce</p><div class="price">$13.90</div><button class="order-card-btn" data-item="DOUBLE SMASH" data-price="13.90">Order Now</button></div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-img"><img src="crispy.jpg" alt="crispy chicken"></div>
+      <div class="menu-info"><h3>CRISPY CHICKEN</h3><p>Spicy fried chicken, slaw, sriracha mayo, pickles</p><div class="price">$11.90</div><button class="order-card-btn" data-item="CRISPY CHICKEN" data-price="11.90">Order Now</button></div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-img"><img src="fries.jpg" alt="loaded fries"></div>
+      <div class="menu-info"><h3>LOADED FRIES</h3><p>Cheese sauce, bacon, jalapeños, ranch drizzle</p><div class="price">$7.90</div><button class="order-card-btn" data-item="LOADED FRIES" data-price="7.90">Order Now</button></div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-img"><img src="bacon.jpg" alt="Bacon bbq"></div>
+      <div class="menu-info"><h3>BACON BBQ</h3><p>Crispy bacon, cheddar, onion rings, BBQ sauce</p><div class="price">$14.90</div><button class="order-card-btn" data-item="BACON BBQ" data-price="14.90">Order Now</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery with Tabs -->
+<section id="gallery" class="section">
+  <div class="section-title"><span> CRUNCH GALLERY </span></div>
+
+  <!-- Tab Buttons -->
+  <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
+    <button class="tab-btn active-tab" data-tab="burgers"> BURGERS</button>
+    <button class="tab-btn" data-tab="chicken"> CHICKEN</button>
+    <button class="tab-btn" data-tab="sides"> SIDES</button>
+    <button class="tab-btn" data-tab="fish"> FISH & SEAFOOD</button>
+  </div>
+
+  <!-- Tab Content: Burgers -->
+  <div id="burgers" class="tab-content active-content">
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-img"><img src="double.jpg" alt="double smash"></div>
+        <div class="menu-info"><h3>DOUBLE SMASH</h3><p>2x beef patties, double cheese, caramelized onions</p><div class="price">$13.90</div><button class="order-card-btn" data-item="DOUBLE SMASH" data-price="13.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="classic chess.jpg" alt="Classic chess"></div>
+        <div class="menu-info"><h3>CLASSIC CHEESE</h3><p>Angus beef, american cheese, lettuce, tomato, special sauce</p><div class="price">$10.90</div><button class="order-card-btn" data-item="CLASSIC CHEESE" data-price="10.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="bacon.jpg" alt="bacon bbq"></div>
+        <div class="menu-info"><h3>BACON BBQ</h3><p>Crispy bacon, cheddar, onion rings, BBQ sauce</p><div class="price">$14.90</div><button class="order-card-btn" data-item="BACON BBQ" data-price="14.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="mushroom.jpg" alt="mushroom swiss"></div>
+        <div class="menu-info"><h3>MUSHROOM</h3><p>Sautéed mushrooms, swiss cheese, truffle aioli</p><div class="price">$13.50</div><button class="order-card-btn" data-item="MUSHROOM SWISS" data-price="13.50">Order Now</button></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab Content: Chicken -->
+  <div id="chicken" class="tab-content">
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-img"><img src="crispy.jpg" alt="crispy chicken"></div>
+        <div class="menu-info"><h3>CRISPY CHICKEN</h3><p>Spicy fried chicken, slaw, sriracha mayo, pickles</p><div class="price">$11.90</div><button class="order-card-btn" data-item="CRISPY CHICKEN" data-price="11.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="chicken tenders.jpg" alt="chicken tenders"></div>
+        <div class="menu-info"><h3>CH. TENDERS</h3><p>5 pcs hand-breaded tenders, honey mustard or ranch</p><div class="price">$9.90</div><button class="order-card-btn" data-item="CHICKEN TENDERS" data-price="9.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="wing.jpg" alt="buffalo wings"></div>
+        <div class="menu-info"><h3>BUFFALO WINGS</h3><p>8 pcs spicy wings, blue cheese, celery sticks</p><div class="price">$12.90</div><button class="order-card-btn" data-item="BUFFALO WINGS" data-price="12.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="hot.jpg" alt="NASHVILLE HOT"></div>
+        <div class="menu-info"><h3>NASHVILLE HOT</h3><p>Extra spicy fried chicken, pickles, comeback sauce</p><div class="price">$12.50</div><button class="order-card-btn" data-item="NASHVILLE HOT" data-price="12.50">Order Now</button></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab Content: Sides -->
+  <div id="sides" class="tab-content">
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-img"><img src="fries.jpg" alt="loaded fries"></div>
+        <div class="menu-info"><h3>LOADED FRIES</h3><p>Cheese sauce, bacon, jalapeños, ranch drizzle</p><div class="price">$7.90</div><button class="order-card-btn" data-item="LOADED FRIES" data-price="7.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="onion rings.jpg" alt="onion rings"></div>
+        <div class="menu-info"><h3>ONION RINGS</h3><p>Beer battered, crispy, served with chipotle dip</p><div class="price">$5.90</div><button class="order-card-btn" data-item="ONION RINGS" data-price="5.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="Coleslaw.jpg" alt="Coleslaw"></div>
+        <div class="menu-info"><h3>COLESLAW</h3><p> Fresh cabbage salad with dressing compelelty.</p><div class="price">$6.90</div><button class="order-card-btn" data-item="COLESLAW " data-price="6.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="nacho.jpg" alt="nachos"></div>
+        <div class="menu-info"><h3>LOADED NACHOS</h3><p>Tortilla chips, cheese, jalapeños, sour cream, guac</p><div class="price">$8.90</div><button class="order-card-btn" data-item="LOADED NACHOS" data-price="8.90">Order Now</button></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab Content: Fish & Seafood -->
+  <div id="fish" class="tab-content">
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="menu-img"><img src="fish and chips.jpg" alt="fish and chips"></div>
+        <div class="menu-info"><h3>FISH & CHIPS</h3><p>Beer battered cod, tartar sauce, lemon wedge, fries</p><div class="price">$14.90</div><button class="order-card-btn" data-item="FISH & CHIPS" data-price="14.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="shrimp.jpg" alt="shrimp basket"></div>
+        <div class="menu-info"><h3>SHRIMP BASKET</h3><p>Crispy fried shrimp, cocktail sauce, coleslaw, fries</p><div class="price">$13.90</div><button class="order-card-btn" data-item="SHRIMP BASKET" data-price="13.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="salmon.jpg" alt="grilled salmon"></div>
+        <div class="menu-info"><h3>GRILLED SALMON</h3><p>Atlantic salmon, lemon butter sauce, rice, veggies</p><div class="price">$17.90</div><button class="order-card-btn" data-item="GRILLED SALMON" data-price="17.90">Order Now</button></div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><img src="calamari.jpg" alt="calamari"></div>
+        <div class="menu-info"><h3>FRIED CALAMARI</h3><p>Lightly breaded, marinara, lemon aioli, the best plate</p><div class="price">$11.90</div><button class="order-card-btn" data-item="FRIED CALAMARI" data-price="11.90">Order Now</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section id="reviews" class="section">
+  <div class="section-title"><span> WHAT THEY SAY</span></div>
+  <div class="testi-grid">
+    <div class="testi-card"><i class="fas fa-quote-left"></i><div class="stars">★★★★★</div><p>"Best smash burger in town! Juicy, crispy edges, addictive sauce."</p><h4>- Mike L.</h4></div>
+    <div class="testi-card"><i class="fas fa-quote-left"></i><div class="stars">★★★★★</div><p>"The loaded fries are insane. Delivery was super fast. New favorite spot."</p><h4>- Jessica R.</h4></div>
+    <div class="testi-card"><i class="fas fa-quote-left"></i><div class="stars">★★★★★</div><p>"Finally real fast food with quality ingredients. Chicken burger 10/10."</p><h4>- David K.</h4></div>
+  </div>
+</section>
+
+<!-- Order Form -->
+<section id="order" class="section">
+  <div class="section-title"><span> ORDER FOR DELIVERY</span></div>
+  <div class="order-box">
+    <div class="order-info">
+      <h2 style="font-size: 2rem;">Get your <span style="color:#ff6b2b;">CRUNCH</span> now!</h2>
+      <p style="margin: 1rem 0;">Fill the form and we'll deliver it hot & fresh to your door.</p>
+      <div class="number-info">
+        <i class="fas fa-motorcycle" style="font-size: 3rem; color: #ff6b2b;"></i>
+        <p><i class="fas fa-phone" style="font-size: 2rem;"></i> +1 222 222 2222</p>
+      </div>
+    </div>
+    <div class="order-form">
+      <input type="text" id="name" placeholder="Full name" required>
+      <input type="tel" id="phone" placeholder="Phone number" required>
+      
+      <div class="order-method">
+        <label>
+          <input type="radio" name="orderMethod" value="Pick Up"> Pick Up
+        </label>
+        <label>
+          <input type="radio" name="orderMethod" value="Delivery" checked> Delivery
+        </label>
+      </div>
+      
+      <input type="text" id="address" placeholder="Delivery address (street, building, apt)" required>
+      <input type="text" id="customFoodItem" placeholder="Write your order here... (e.g., Double Smash + extra cheese)" required>
+      <input type="number" id="qty" value="1" min="1" placeholder="Quantity">
+      <textarea rows="2" id="notes" placeholder="Extra notes (extra spicy? no onion? etc.)"></textarea>
+      <button id="submitOrderBtn"> PLACE ORDER</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="logo" style="margin-bottom: 1rem;">🍔 CRUNCH HOUSE</div>
+  <p>📍 42 Flavor Street, Downtown • 🕒 Daily 11AM – 1AM</p>
+  <div class="social-icons">
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-tiktok"></i>
+    <i class="fab fa-twitter"></i>
+  </div>
+  <p style="margin-top: 2rem; font-size: 0.8rem;">© 2026 Roghaye Mohammadi — DEMO VERSION | <a href="#" class="footer-id">@roghayem-dev</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
