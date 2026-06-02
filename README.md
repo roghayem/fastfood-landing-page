@@ -12,11 +12,7 @@ A modern, responsive, and visually appealing Fast Food Landing Page built using 
 
 ## 🖼️ Preview
 
-Add a screenshot of your project here:
-
-```md
-![Portfolio Preview](assets/Screenshot_1-6-2026_21349_127.0.0.1.jpeg)
-```
+![Portfolio Preview](./assets/Screenshot_1-6-2026_21349_127.0.0.1.jpeg)
 
 ---
 
@@ -76,14 +72,29 @@ fastfood-landing-page/
 ├── style.css
 ├── script.js
 ├── assets/
+│   └── Screenshot_1-6-2026_21349_127.0.0.1.jpeg
 └── README.md
 ```
 
 ---
 
+## 🎯 Project Goals
+
+This project was created to practice and improve:
+
+* Responsive Web Design
+* Modern UI Development
+* CSS Layout Techniques
+* JavaScript Interactivity
+* Front-End Development Best Practices
+
+---
+
 ## 📧 Contact
 
-Feel free to connect with me through GitHub and explore more of my projects.
+Feel free to explore my GitHub profile and check out more of my projects.
+
+GitHub: https://github.com/roghayem
 
 ---
 
