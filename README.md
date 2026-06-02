@@ -15,7 +15,7 @@ A modern, responsive, and visually appealing Fast Food Landing Page built using 
 Add a screenshot of your project here:
 
 ```md
-![Project Preview](./assets/preview.png)
+![Project Preview]([./assets/preview.png](https://github.com/roghayem/fastfood-landing-page/blob/main/assets/Screenshot_1-6-2026_21349_127.0.0.1.jpeg))
 ```
 
 ---
