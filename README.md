@@ -30,7 +30,6 @@ A modern, responsive, and visually appealing Fast Food Landing Page built using 
 
 🖼️ High-quality food showcase section
 
-📞 Contact and social media sections
 
 ---
 
