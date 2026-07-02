@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #0b0b0b;
+    background: #000000;
     font-family: 'Inter', sans-serif;
     color: #fff;
     scroll-behavior: smooth;
@@ -92,7 +92,7 @@ body {
 /* hero */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(110deg, #0a0a0a 35%, rgba(0, 0, 0, 0.5) 100%), url('https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=2070&auto=format') center/cover fixed;
+    background: linear-gradient(110deg, #000000 35%, rgba(0, 0, 0, 0.5) 100%);
     display: flex;
     align-items: center;
     padding: 0 7%;
@@ -455,6 +455,7 @@ body {
 @media (max-width: 600px) {
     .demo-toast { font-size: 0.8rem; padding: 12px 20px; }
     .order-method label { padding: 10px 12px; font-size: 0.85rem; }
+    .hero{background:none ;}
 }
 
 .demo-banner {
@@ -536,4 +537,14 @@ footer p {
     .image{
         display: none;
     }
+    .hero {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(0,0,0,0.8),
+            rgba(0,0,0,0.5)
+        ),
+        url('https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=2070&auto=format')
+        center/cover no-repeat;
+}
 }
