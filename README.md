@@ -1,62 +1,58 @@
 # 🍔 Fast Food Landing Page
 
-A modern, responsive, and visually appealing Fast Food Landing Page built using HTML, CSS, and JavaScript. This project showcases a professional restaurant landing page with smooth navigation, attractive sections, and a mobile-friendly design.
+A modern and responsive Fast Food Landing Page built using HTML, CSS, and JavaScript. This project features an attractive restaurant design, smooth navigation, and a mobile-friendly layout.
 
 ---
 
 ## 🌟 Live Demo
 
-👉 View Live Demo: https://roghayem.github.io/fastfood-landing-page/
+👉 View Live Demo: [https://roghayem.github.io/fastfood-landing-page/](https://roghayem.github.io/fastfood-landing-page/)
 
 ---
 
 ## 🖼️ Preview
 
-![Portfolio Preview](./assets/Screenshot_1-6-2026_21349_127.0.0.1.jpeg)
+![Fast Food Landing Page](https://github.com/roghayem/fastfood-landing-page/raw/main/assets/Screenshot_1-6-2026_21349_127.0.0.1.jpeg)
 
 ---
 
 ## ✨ Features
 
-🍔 Modern and attractive fast-food landing page
-
-📱 Fully responsive design for desktop, tablet, and mobile devices
-
-⚡ Smooth user experience with JavaScript interactions
-
-🎨 Clean and modern UI with custom styling
-
-🧭 Easy navigation between sections
-
-🖼️ High-quality food showcase section
-
+- Modern and attractive fast-food landing page
+- Fully responsive design for desktop, tablet, and mobile devices
+- Smooth user experience with JavaScript interactions
+- Clean UI with custom styling
+- Easy navigation between sections
+- Food showcase section
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Built With
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* Flexbox
-* CSS Grid
-* Media Queries
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- CSS Flexbox
+- CSS Grid
+- Media Queries
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Getting Started
+
+To run this project locally:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/roghayem/fastfood-landing-page.git
-```
+   ```bash
+   git clone https://github.com/roghayem/fastfood-landing-page.git
+   ```
 
 2. Open the project folder:
 
-```bash
-cd fastfood-landing-page
-```
+   ```bash
+   cd fastfood-landing-page
+   ```
 
 3. Open `index.html` in your browser.
 
@@ -77,26 +73,25 @@ fastfood-landing-page/
 
 ---
 
-## 🎯 Project Goals
+## 📚 What I Learned
 
-This project was created to practice and improve:
+Through this project, I practiced:
 
-* Responsive Web Design
-* Modern UI Development
-* CSS Layout Techniques
-* JavaScript Interactivity
-* Front-End Development Best Practices
-
----
-
-## 📧 Contact
-
-Feel free to explore my GitHub profile and check out more of my projects.
-
-GitHub: https://github.com/roghayem
+- Building a restaurant landing page using HTML
+- Creating responsive layouts with Flexbox and CSS Grid
+- Using media queries for different screen sizes
+- Adding JavaScript interactions
+- Organizing page sections and navigation
+- Improving my frontend development skills
 
 ---
 
-## ⭐ Support
+## 👩‍💻 Author
 
-If you like this project, consider giving it a star on GitHub.
+**Roghaye Mohammadi**
+
+- GitHub: [@roghayem](https://github.com/roghayem)
+
+---
+
+⭐ If you like this project, feel free to give it a star!
